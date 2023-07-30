@@ -416,15 +416,10 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--ocean);
-}
-
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
   color: var(--ocean);
 }
 
 .customers-icon {
-  fill: var(--lightslate);
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
